@@ -42,13 +42,13 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 ### Web AI — Select text, send to any AI
 
 <p align="center">
-  <img src="https://groask.com/images/demo-web.gif" alt="Web AI Demo" width="700">
+  <img src="images/demo-web.gif" alt="Web AI Demo" width="700">
 </p>
 
 ### CLI Agents — Claude Code, Gemini CLI, Codex and more
 
 <p align="center">
-  <img src="https://groask.com/images/demo-cli.gif" alt="CLI Demo" width="700">
+  <img src="images/demo-cli.gif" alt="CLI Demo" width="700">
 </p>
 
 ## Features

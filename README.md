@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>The shortest path from any text to any AI on your Mac.</strong><br>
-  One hotkey to ChatGPT, Claude, Gemini, DeepSeek, and CLI agents like Claude Code.
+  One hotkey to ChatGPT, Claude, Gemini, DeepSeek, Perplexity, Grok, and CLI agents like Claude Code.
 </p>
 
 <p align="center">
@@ -47,7 +47,7 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 | Feature | Description |
 |---------|-------------|
 | **Global Hotkey** | `⌥Space` launches GroAsk from anywhere (customizable to `⌥G`) |
-| **8 AI Channels** | ChatGPT, Claude, Gemini, DeepSeek, Kimi + Claude Code, Gemini CLI, Codex |
+| **11 AI Channels** | ChatGPT, Claude, Gemini, DeepSeek, Kimi, Perplexity, Grok, Doubao + Claude Code, Gemini CLI, Codex |
 | **Select & Ask** | Select any text → send directly to AI with auto-submit |
 | **Image Support** | Drag & drop or paste images into Web AI channels |
 | **CLI Agents** | Run Claude Code / Gemini CLI / Codex from GroAsk |
@@ -60,10 +60,13 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 | Channel | Type | Tier |
 |---------|------|------|
 | ChatGPT | Web AI | Free |
+| Claude | Web AI | Free |
 | Gemini | Web AI | Free |
 | DeepSeek | Web AI | Free |
 | Kimi | Web AI | Free |
-| Claude | Web AI | Pro |
+| Perplexity | Web AI | Free |
+| Grok | Web AI | Free |
+| Doubao | Web AI | Free |
 | Claude Code | CLI Agent | Pro |
 | Gemini CLI | CLI Agent | Pro |
 | Codex | CLI Agent | Pro |
@@ -81,13 +84,13 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 
 | | Free | Pro ($9.99) |
 |---|------|-------------|
-| Web AI channels | ChatGPT, Gemini, DeepSeek, Kimi | + Claude |
+| Web AI channels | All 8 channels | ✓ |
 | CLI agents | — | Claude Code, Gemini CLI, Codex |
 | Select & Ask | ✓ | ✓ |
 | Image support | ✓ | ✓ |
 | Silent mode | ✓ | ✓ |
 
-One-time purchase. Lifetime license. All 1.x updates included.
+All Web AI channels are free. Pro unlocks CLI agents. One-time purchase, lifetime license, all 1.x updates included.
 
 ## System Requirements
 
@@ -104,11 +107,12 @@ One-time purchase. Lifetime license. All 1.x updates included.
 
 ## 中文说明
 
-**GroAsk** 是一个 macOS 菜单栏 AI 启动器。按下 `⌥Space`，即可快速访问 ChatGPT、Claude、Gemini、DeepSeek 等 AI 服务，无需 API Key，直接使用你已有的网页版订阅。快捷键可在设置中自定义。
+**GroAsk** 是一个 macOS 菜单栏 AI 启动器。按下 `⌥Space`，即可快速访问 ChatGPT、Claude、Gemini、DeepSeek、Perplexity、Grok 等 AI 服务，无需 API Key，直接使用你已有的网页版订阅。快捷键可在设置中自定义。
 
 ### 核心功能
 
 - **全局热键** `⌥Space` 随时唤起（可自定义为 `⌥G`）
+- **11 个 AI 通道** ChatGPT、Claude、Gemini、DeepSeek、Kimi、Perplexity、Grok、豆包 + 3 个 CLI 通道
 - **选中即问** 选中任意文字，一键发送到 AI 并自动提交
 - **图片支持** 拖拽或粘贴图片到 Web AI
 - **CLI 通道** 集成 Claude Code / Gemini CLI / Codex
@@ -122,5 +126,5 @@ One-time purchase. Lifetime license. All 1.x updates included.
 
 ### 定价
 
-- **免费版**：ChatGPT、Gemini、DeepSeek、Kimi
-- **Pro 版 ($9.99 / ¥68)**：+ Claude、Claude Code、Gemini CLI、Codex — 一次购买，终身使用
+- **免费版**：所有 8 个 Web AI 通道（ChatGPT、Claude、Gemini、DeepSeek、Kimi、Perplexity、Grok、豆包）
+- **Pro 版 ($9.99 / ¥68)**：+ Claude Code、Gemini CLI、Codex — 一次购买，终身使用

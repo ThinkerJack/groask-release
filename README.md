@@ -5,8 +5,8 @@
 <h1 align="center">GroAsk</h1>
 
 <p align="center">
-  <strong>The shortest path from any text to any AI on your Mac.</strong><br>
-  One hotkey to ChatGPT, Claude, Gemini, DeepSeek, Perplexity, Grok, and CLI agents like Claude Code.
+  <strong>One hotkey to every AI. No tab switching. No setup.</strong><br>
+  Press ⌥Space to reach ChatGPT, Claude, Gemini, DeepSeek, and 13 more AIs — including CLI agents like Claude Code.
 </p>
 
 <p align="center">
@@ -26,7 +26,16 @@
 
 ## Why GroAsk?
 
-You already pay for ChatGPT, Claude, Gemini... but switching between browser tabs is slow. GroAsk lives in your menu bar — press **⌥Space**, pick an AI, type your question, done. No API keys needed. It uses your existing web subscriptions directly. (Hotkey is customizable in Settings.)
+You already pay for ChatGPT, Claude, Gemini... but switching between browser tabs is slow. GroAsk lives in your menu bar — press **⌥Space**, pick an AI, type your question, done. No API keys needed. It uses your existing web subscriptions directly.
+
+| | GroAsk | ChatGPT/Claude App | Raycast AI | BoltAI |
+|---|---|---|---|---|
+| AI Channels | **17** (11 Web + 6 CLI) | 1 | 1 | Multi (needs API Key) |
+| Pricing | **$9.99 one-time** | Free | $8/month | $37-57 |
+| API Key Required | No | No | No | **Yes** |
+| Uses Official Website | **Yes** (full features) | N/A | Custom UI | Custom UI |
+| Claude Code Support | **Yes** | No | No | No |
+| Native Swift | **Yes** (8 MB) | Electron | Electron | Swift |
 
 ## Demo
 
@@ -36,7 +45,7 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
   <img src="https://groask.com/images/demo-web.gif" alt="Web AI Demo" width="700">
 </p>
 
-### CLI Agents — Claude Code, Gemini CLI, Codex
+### CLI Agents — Claude Code, Gemini CLI, Codex and more
 
 <p align="center">
   <img src="https://groask.com/images/demo-cli.gif" alt="CLI Demo" width="700">
@@ -47,35 +56,37 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 | Feature | Description |
 |---------|-------------|
 | **Global Hotkey** | `⌥Space` launches GroAsk from anywhere (customizable to `⌥G`) |
-| **11 AI Channels** | ChatGPT, Claude, Gemini, DeepSeek, Kimi, Perplexity, Grok, Doubao + Claude Code, Gemini CLI, Codex |
-| **Select & Ask** | Select any text → send directly to AI with auto-submit |
-| **Image Support** | Drag & drop or paste images into Web AI channels |
-| **CLI Agents** | Run Claude Code / Gemini CLI / Codex from GroAsk |
-| **Silent Mode** | Auto-submit without opening the AI window |
+| **17 AI Channels** | 11 Web AI + 6 CLI agents, switch with `Tab` |
+| **Select & Ask** | Select any text → press hotkey → it's already in the launcher |
+| **Image Support** | Paste or drag & drop images into Web AI channels |
+| **CLI Agents** | Claude Code, Gemini CLI, Codex, CodeBuddy, Kimi Code, Qwen Code |
+| **Silent Mode** | `⌥Enter` auto-submits without opening the AI window |
 | **No API Keys** | Uses your existing web subscriptions — zero setup |
-| **Lightweight** | Native Swift app, minimal resource usage |
+| **Lightweight** | Native Swift, 8 MB, launches in under 1 second |
 
 ## Supported Channels
 
-| Channel | Type | Tier |
-|---------|------|------|
-| ChatGPT | Web AI | Free |
-| Claude | Web AI | Free |
-| Gemini | Web AI | Free |
-| DeepSeek | Web AI | Free |
-| Kimi | Web AI | Free |
-| Perplexity | Web AI | Free |
-| Grok | Web AI | Free |
-| Doubao | Web AI | Free |
-| Claude Code | CLI Agent | Pro |
-| Gemini CLI | CLI Agent | Pro |
-| Codex | CLI Agent | Pro |
+### Web AI (Free)
+
+| Channel | |  Channel | | Channel |
+|---------|---|---------|---|---------|
+| ChatGPT | | Perplexity | | Doubao (豆包) |
+| Claude | | Grok | | Copilot |
+| Gemini | | DeepSeek | | Tongyi (通义) |
+| Kimi | | | | Zhipu (智谱) |
+
+### CLI Agents (Pro)
+
+| Channel | | Channel | | Channel |
+|---------|---|---------|---|---------|
+| Claude Code | | Codex | | Kimi Code |
+| Gemini CLI | | CodeBuddy | | Qwen Code |
 
 ## Install
 
 1. **Download** [GroAsk.dmg](https://github.com/ThinkerJack/groask-release/releases/latest/download/GroAsk.dmg)
 2. Open the DMG and drag **GroAsk** to Applications
-3. Launch GroAsk — it appears in your menu bar
+3. Launch GroAsk — it appears in your menu bar as a bolt icon
 4. Press **⌥Space** and start asking
 
 > First launch: if macOS blocks the app, go to **System Settings → Privacy & Security** and click "Open Anyway".
@@ -84,39 +95,50 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 
 | | Free | Pro ($9.99) |
 |---|------|-------------|
-| Web AI channels | All 8 channels | ✓ |
-| CLI agents | — | Claude Code, Gemini CLI, Codex |
+| Web AI channels | All 11 channels | All 11 channels |
+| CLI agents | — | All 6 agents |
 | Select & Ask | ✓ | ✓ |
 | Image support | ✓ | ✓ |
 | Silent mode | ✓ | ✓ |
 
-All Web AI channels are free. Pro unlocks CLI agents. One-time purchase, lifetime license, all 1.x updates included.
+One-time purchase. Lifetime license. All future updates included.
 
 ## System Requirements
 
 - macOS 13.0 (Ventura) or later
+- Google Chrome
 - For CLI agents: Node.js and the respective CLI tool installed
 
 ## Links
 
 - **Website**: [groask.com](https://groask.com)
 - **Releases**: [All versions](https://github.com/ThinkerJack/groask-release/releases)
+- **Issues**: [Report a bug](https://github.com/ThinkerJack/groask-release/issues)
 - **Contact**: contact@groask.com
 
 ---
 
 ## 中文说明
 
-**GroAsk** 是一个 macOS 菜单栏 AI 启动器。按下 `⌥Space`，即可快速访问 ChatGPT、Claude、Gemini、DeepSeek、Perplexity、Grok 等 AI 服务，无需 API Key，直接使用你已有的网页版订阅。快捷键可在设置中自定义。
+**GroAsk** 是一个 macOS 菜单栏 AI 启动器。按下 `⌥Space`，即可快速访问 ChatGPT、Claude、Gemini、DeepSeek 等 17 个 AI，无需 API Key，直接使用你已有的网页版账号。快捷键可在设置中自定义为 `⌥G`。
 
 ### 核心功能
 
 - **全局热键** `⌥Space` 随时唤起（可自定义为 `⌥G`）
-- **11 个 AI 通道** ChatGPT、Claude、Gemini、DeepSeek、Kimi、Perplexity、Grok、豆包 + 3 个 CLI 通道
-- **选中即问** 选中任意文字，一键发送到 AI 并自动提交
-- **图片支持** 拖拽或粘贴图片到 Web AI
-- **CLI 通道** 集成 Claude Code / Gemini CLI / Codex
-- **静默模式** 自动提交，无需打开 AI 窗口
+- **17 个 AI 通道** — 11 个 Web AI + 6 个 CLI 通道，`Tab` 键快速切换
+- **选中即问** — 选中任意文字，按快捷键直接发送到 AI
+- **图片支持** — 拖拽或粘贴图片到 Web AI
+- **CLI 通道** — Claude Code / Gemini CLI / Codex / CodeBuddy / Kimi Code / Qwen Code
+- **静默模式** — `⌥Enter` 自动提交，无需打开 AI 窗口
+- **原生 Swift** — 8 MB，秒启动，无 Electron
+
+### Web AI 通道（免费）
+
+ChatGPT、Claude、Gemini、Perplexity、Grok、DeepSeek、Kimi、豆包、Copilot、通义千问、智谱清言
+
+### CLI 通道（Pro）
+
+Claude Code、Gemini CLI、Codex、CodeBuddy、Kimi Code、Qwen Code
 
 ### 安装
 
@@ -126,5 +148,5 @@ All Web AI channels are free. Pro unlocks CLI agents. One-time purchase, lifetim
 
 ### 定价
 
-- **免费版**：所有 8 个 Web AI 通道（ChatGPT、Claude、Gemini、DeepSeek、Kimi、Perplexity、Grok、豆包）
-- **Pro 版 ($9.99 / ¥68)**：+ Claude Code、Gemini CLI、Codex — 一次购买，终身使用
+- **免费版**：全部 11 个 Web AI 通道
+- **Pro 版 ($9.99 / ¥68)**：+ 6 个 CLI 通道 — 一次购买，终身使用

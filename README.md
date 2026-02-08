@@ -26,7 +26,7 @@
 
 ## Why GroAsk?
 
-You already pay for ChatGPT, Claude, Gemini... but switching between browser tabs is slow. GroAsk lives in your menu bar — press **⌥Space**, pick an AI, type your question, done. No API keys needed. It uses your existing web subscriptions directly.
+You already pay for ChatGPT, Claude, Gemini... but switching between browser tabs is slow. GroAsk lives in your menu bar — press **⌥G**, pick an AI, type your question, done. No API keys needed. It uses your existing web subscriptions directly.
 
 ## Demo
 
@@ -46,7 +46,7 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 
 | Feature | Description |
 |---------|-------------|
-| **Global Hotkey** | `⌥Space` launches GroAsk from anywhere |
+| **Global Hotkey** | `⌥G` launches GroAsk from anywhere |
 | **8 AI Channels** | ChatGPT, Claude, Gemini, DeepSeek, Kimi + Claude Code, Gemini CLI, Codex |
 | **Select & Ask** | Select any text → send directly to AI with auto-submit |
 | **Image Support** | Drag & drop or paste images into Web AI channels |
@@ -73,7 +73,7 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 1. **Download** [GroAsk.dmg](https://github.com/ThinkerJack/groask-release/releases/latest/download/GroAsk.dmg)
 2. Open the DMG and drag **GroAsk** to Applications
 3. Launch GroAsk — it appears in your menu bar
-4. Press **⌥Space** and start asking
+4. Press **⌥G** and start asking
 
 > First launch: if macOS blocks the app, go to **System Settings → Privacy & Security** and click "Open Anyway".
 
@@ -104,11 +104,11 @@ One-time purchase. Lifetime license. All 1.x updates included.
 
 ## 中文说明
 
-**GroAsk** 是一个 macOS 菜单栏 AI 启动器。按下 `⌥Space`，即可快速访问 ChatGPT、Claude、Gemini、DeepSeek 等 AI 服务，无需 API Key，直接使用你已有的网页版订阅。
+**GroAsk** 是一个 macOS 菜单栏 AI 启动器。按下 `⌥G`，即可快速访问 ChatGPT、Claude、Gemini、DeepSeek 等 AI 服务，无需 API Key，直接使用你已有的网页版订阅。
 
 ### 核心功能
 
-- **全局热键** `⌥Space` 随时唤起
+- **全局热键** `⌥G` 随时唤起
 - **选中即问** 选中任意文字，一键发送到 AI 并自动提交
 - **图片支持** 拖拽或粘贴图片到 Web AI
 - **CLI 通道** 集成 Claude Code / Gemini CLI / Codex

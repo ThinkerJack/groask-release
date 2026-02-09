@@ -72,8 +72,8 @@ You already pay for ChatGPT, Claude, Gemini... but switching between browser tab
 |---------|---|---------|---|---------|
 | ChatGPT | | Perplexity | | Doubao (豆包) |
 | Claude | | Grok | | Copilot |
-| Gemini | | DeepSeek | | Tongyi (通义) |
-| Kimi | | | | Zhipu (智谱) |
+| Gemini | | DeepSeek | | Qwen |
+| Kimi | | | | ChatGLM |
 
 ### CLI Agents (Pro)
 
@@ -134,7 +134,7 @@ One-time purchase. Lifetime license. All future updates included.
 
 ### Web AI 通道（免费）
 
-ChatGPT、Claude、Gemini、Perplexity、Grok、DeepSeek、Kimi、豆包、Copilot、通义千问、智谱清言
+ChatGPT、Claude、Gemini、Perplexity、Grok、DeepSeek、Kimi、豆包、Copilot、Qwen、ChatGLM
 
 ### CLI 通道（Pro）
 

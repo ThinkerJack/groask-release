@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>GroAsk</title>
+        <item>
+            <title>Version 1.8.29</title>
+            <pubDate>Sat, 14 Feb 2026 23:39:49 +0800</pubDate>
+            <sparkle:version>202602142337</sparkle:version>
+            <sparkle:shortVersionString>1.8.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/ThinkerJack/groask-release/releases/download/v1.8.29/GroAsk.dmg"
+                       sparkle:edSignature="RqdiRoEPGX3CLoPrjdQ2jtp4FPL/QFxMs1H593CcDxU6GscJipg4YgkcIx+VqwxPn4CCmWfXoOZY81jB2nHnCQ=="
+                       length="3070896"
+                       type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>

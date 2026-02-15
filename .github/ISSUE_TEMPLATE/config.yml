@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "💬 讨论区 / Discussions"
+    url: https://github.com/ThinkerJack/groask-release/discussions
+    about: "提问、分享使用技巧、参与投票，来讨论区聊"

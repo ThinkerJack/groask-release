@@ -1,0 +1,33 @@
+name: "💡 Feature Request"
+description: "提一个新功能或改进建议"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "好主意让 GroAsk 变更好，感谢分享！"
+  - type: textarea
+    id: problem
+    attributes:
+      label: "遇到了什么问题？"
+      description: "描述你想解决的痛点或场景"
+      placeholder: "每次切换 AI 都要..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: "你期望的方案"
+      description: "你希望 GroAsk 怎么做？"
+      placeholder: "如果能一键..."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "你目前怎么解决的？"
+      description: "可选，描述你现在的替代方案"
+  - type: textarea
+    id: context
+    attributes:
+      label: "补充信息"
+      description: "截图、参考链接等"

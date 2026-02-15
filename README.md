@@ -5,8 +5,8 @@
 <h1 align="center">GroAsk</h1>
 
 <p align="center">
-  <strong>Select. Ask. AI Answers Instantly.</strong><br>
-  Press ⌥Space to send selected text to ChatGPT, Claude, Gemini, Grok — or launch Claude Code, Gemini CLI, Codex and more.
+  <strong>The Fastest Launcher for Claude Code.</strong><br>
+  Claude Code, Gemini CLI, Codex — one hotkey away. Stop juggling terminal windows.
 </p>
 
 <p align="center">
@@ -26,18 +26,15 @@
 
 ## Why GroAsk?
 
-You already use ChatGPT, Claude, Gemini... but switching between browser tabs is slow. GroAsk lives in your menu bar — select any text, press **⌥Space**, pick an AI, done. No API keys needed. It opens the official AI website directly, so you keep all features of your existing subscriptions.
-
-| | GroAsk | ChatGPT/Claude App | Raycast AI | BoltAI |
-|---|---|---|---|---|
-| AI Channels | **11** (5 Web + 6 CLI) | 1 | 1 | Multi (needs API Key) |
-| Pricing | **Free** | Free | $8/month | $37-57 |
-| API Key Required | No | No | No | **Yes** |
-| Uses Official Website | **Yes** (full features) | N/A | Custom UI | Custom UI |
-| Claude Code Support | **Yes** | No | No | No |
-| Native Swift | **Yes** (2 MB) | Electron | Electron | Swift |
+You use Claude Code every day, but launching it in the right project directory takes too many steps. GroAsk lives in your menu bar — press **⌥Space**, type your task, and Claude Code starts instantly in the correct workspace. It also supports Gemini CLI, Codex, and 4 web AIs — all from one unified interface. No API keys needed.
 
 ## Demo
+
+### CLI Agents — Claude Code, Gemini CLI, Codex and more
+
+<p align="center">
+  <img src="images/demo-cli.gif" alt="CLI Demo" width="700">
+</p>
 
 ### Web AI — Select text, send to any AI
 
@@ -45,40 +42,35 @@ You already use ChatGPT, Claude, Gemini... but switching between browser tabs is
   <img src="images/demo-web.gif" alt="Web AI Demo" width="700">
 </p>
 
-### CLI Tools — Claude Code, Gemini CLI, Codex and more
-
-<p align="center">
-  <img src="images/demo-cli.gif" alt="CLI Demo" width="700">
-</p>
-
 ## Features
 
 | Feature | Description |
 |---------|-------------|
-| **Global Hotkey** | `⌥Space` launches GroAsk from anywhere (customizable to `⌥G`) |
-| **11 AI Channels** | 5 Web AI + 6 CLI tools, switch with `Tab` |
+| **Global Hotkey** | `⌥Space` launches GroAsk from anywhere (customizable) |
+| **10 AI Channels** | 6 CLI agents + 4 Web AIs, switch with `Tab` |
+| **Workspace Shortcuts** | Launch Claude Code across multiple project directories |
+| **Multi-Terminal** | Terminal, iTerm2, Ghostty, Warp |
 | **Select & Ask** | Select any text → press hotkey → it's already in the AI |
 | **Image Support** | `⌘V` to paste screenshots and ask AI |
-| **CLI Launcher** | Claude Code, Gemini CLI, Codex, CodeBuddy, Kimi Code, Qwen Code |
-| **Silent Mode** | `⌥Enter` auto-submits without opening the AI window |
-| **No API Keys** | Uses your existing web sessions — zero config |
+| **Silent Mode** | `⌥Enter` sends to AI in the background |
+| **No API Keys** | Uses your existing CLI tools and web sessions — zero config |
 | **Lightweight** | Native Swift, 2 MB, launches in under 1 second |
 
 ## Supported Channels
 
-### Web AI
-
-| Channel | Channel | Channel |
-|---------|---------|---------|
-| ChatGPT | Grok | Doubao (豆包) |
-| Claude | Gemini | |
-
-### CLI Tools
+### CLI Agents
 
 | Channel | Channel | Channel |
 |---------|---------|---------|
 | Claude Code | Codex | Kimi Code |
 | Gemini CLI | CodeBuddy | Qwen Code |
+
+### Web AI
+
+| Channel | Channel |
+|---------|---------|
+| ChatGPT | Gemini |
+| Claude | Monica |
 
 ## Install
 
@@ -92,45 +84,46 @@ You already use ChatGPT, Claude, Gemini... but switching between browser tabs is
 ## Privacy
 
 - Runs 100% locally — no data collected or stored
-- Accessibility permission used only for text capture (`⌘C`) and image paste (`⌘V`)
-- No API keys required — uses your existing AI web sessions
+- Accessibility permission used only for text capture and image paste
+- No API keys required — uses your existing CLI tools and AI web sessions
 
 ## System Requirements
 
 - macOS 13.0 (Ventura) or later
-- Google Chrome
-- For CLI tools: the respective CLI tool installed (e.g. `npm i -g @anthropic-ai/claude-code`)
+- Google Chrome (for web AI channels only)
+- For CLI agents: the respective CLI tool installed (e.g. `curl -fsSL https://claude.ai/install.sh | bash`)
 
 ## Links
 
 - **Website**: [groask.com](https://groask.com)
 - **Releases**: [All versions](https://github.com/ThinkerJack/groask-release/releases)
 - **Issues**: [Report a bug](https://github.com/ThinkerJack/groask-release/issues)
-- **Contact**: contact@groask.com
+- **Discussions**: [Community](https://github.com/ThinkerJack/groask-release/discussions)
 
 ---
 
 ## 中文说明
 
-**GroAsk** 是一个 macOS 菜单栏 AI 启动器。按下 `⌥Space`，即可快速访问 ChatGPT、Claude、Gemini 等 AI，无需 API Key，直接使用你已有的网页版账号。
+**GroAsk** 是最快的 Claude Code 启动器。按下 `⌥Space`，输入任务，Claude Code 立刻在正确的项目目录启动。同时支持 Gemini CLI、Codex 等 6 个 CLI 智能体和 4 个 Web AI，无需 API Key。
 
 ### 核心功能
 
-- **全局热键** `⌥Space` 随时唤起（可自定义为 `⌥G`）
-- **11 个 AI 通道** — 5 个 Web AI + 6 个 CLI 工具，`Tab` 键快速切换
+- **全局热键** `⌥Space` 随时唤起（可自定义）
+- **10 个 AI 通道** — 6 个 CLI 智能体 + 4 个 Web AI，`Tab` 键快速切换
+- **工作区快捷方式** — 快速切换多个项目目录启动 Claude Code
+- **多终端支持** — Terminal、iTerm2、Ghostty、Warp
 - **划词即问** — 选中文本，按快捷键，自动发给 AI
 - **图片支持** — `⌘V` 粘贴截图提问
-- **CLI 启动器** — Claude Code / Gemini CLI / Codex / CodeBuddy / Kimi Code / Qwen Code
-- **静默模式** — `⌥Enter` 自动提交，无需打开 AI 窗口
+- **静默模式** — `⌥Enter` 后台发送任务
 - **原生 Swift** — 2 MB，秒启动
+
+### CLI 智能体
+
+Claude Code、Gemini CLI、Codex、CodeBuddy、Kimi Code、Qwen Code
 
 ### Web AI 通道
 
-ChatGPT、Claude、Gemini、Grok、豆包
-
-### CLI 工具
-
-Claude Code、Gemini CLI、Codex、CodeBuddy、Kimi Code、Qwen Code
+ChatGPT、Claude、Gemini、Monica
 
 ### 安装
 

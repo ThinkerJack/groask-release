@@ -79,8 +79,6 @@ You use Claude Code every day, but launching it in the right project directory t
 3. Launch GroAsk — it appears in your menu bar
 4. Press **⌥Space** and start asking
 
-> First launch: if macOS blocks the app, go to **System Settings → Privacy & Security** and click "Open Anyway".
-
 ## Privacy
 
 - Runs 100% locally — no data collected or stored
@@ -129,8 +127,6 @@ ChatGPT、Claude、Gemini、Monica
 
 1. 下载 [GroAsk.dmg](https://github.com/ThinkerJack/groask-release/releases/latest/download/GroAsk.dmg)
 2. 打开 DMG，拖入 Applications
-3. 首次打开如遇安全提示 → 系统设置 → 隐私与安全性 → 允许运行
-
 ### 定价
 
 **完全免费** — 所有功能开放，无试用期，无需升级。

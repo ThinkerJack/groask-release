@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ThinkerJack/groask-release/releases/latest/download/GroAsk.dmg">
+  <a href="https://groask.com/download?ref=github">
     <img src="https://img.shields.io/badge/Download-GroAsk.dmg-blue?style=for-the-badge&logo=apple" alt="Download">
   </a>
 </p>
@@ -74,7 +74,7 @@ You use Claude Code every day, but launching it in the right project directory t
 
 ## Install
 
-1. **Download** [GroAsk.dmg](https://github.com/ThinkerJack/groask-release/releases/latest/download/GroAsk.dmg)
+1. **Download** [GroAsk.dmg](https://groask.com/download?ref=github)
 2. Open the DMG and drag **GroAsk** to Applications
 3. Launch GroAsk — it appears in your menu bar
 4. Press **⌥Space** and start asking
@@ -125,7 +125,7 @@ ChatGPT、Claude、Gemini、Monica
 
 ### 安装
 
-1. 下载 [GroAsk.dmg](https://github.com/ThinkerJack/groask-release/releases/latest/download/GroAsk.dmg)
+1. 下载 [GroAsk.dmg](https://groask.com/download?ref=github)
 2. 打开 DMG，拖入 Applications
 ### 定价
 

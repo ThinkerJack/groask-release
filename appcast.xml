@@ -3,14 +3,14 @@
     <channel>
         <title>GroAsk</title>
         <item>
-            <title>Version 2.0.3</title>
-            <pubDate>Mon, 16 Feb 2026 17:43:29 +0800</pubDate>
-            <sparkle:version>202602161741</sparkle:version>
-            <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+            <title>Version 2.0.4</title>
+            <pubDate>Mon, 16 Feb 2026 19:48:51 +0800</pubDate>
+            <sparkle:version>202602161947</sparkle:version>
+            <sparkle:shortVersionString>2.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/ThinkerJack/groask-release/releases/download/v2.0.3/GroAsk.dmg"
-                       sparkle:edSignature="kXTBaJyf2C2eXQtXyJEAWeRuos4nszSjXRzx2tuRJLqYNRnOte/C2xFV54Xz5JI4ZD+xUnIIkx0DVICyOE9qBw=="
-                       length="3327190"
+            <enclosure url="https://github.com/ThinkerJack/groask-release/releases/download/v2.0.4/GroAsk.dmg"
+                       sparkle:edSignature="ywL+aNjyvArETilTgkrpKqfjtRS3gt3l15o0edNAhrW66JGi5BP6uk44zZ4pGRpes4tbPcg/7W2UIvUElnNjBQ=="
+                       length="3329369"
                        type="application/octet-stream" />
         </item>
     </channel>

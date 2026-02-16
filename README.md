@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/demo-hero.gif" alt="GroAsk Demo" width="700">
+  <img src="images/demo-dashboard.jpeg" alt="GroAsk Agent Dashboard" width="700">
 </p>
 
 <h1 align="center">GroAsk</h1>
@@ -36,7 +36,7 @@ Plus, press **⌥Space** to launch Claude Code, Gemini CLI, Codex, and 4 web AIs
 ### Agent Dashboard — Monitor all Claude Code sessions
 
 <p align="center">
-  <img src="images/demo-hero.gif" alt="Agent Dashboard Demo" width="700">
+  <img src="images/demo-dashboard.jpeg" alt="Agent Dashboard Demo" width="700">
 </p>
 
 ### CLI Agents — Claude Code, Gemini CLI, Codex and more

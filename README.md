@@ -5,8 +5,9 @@
 <h1 align="center">GroAsk</h1>
 
 <p align="center">
-  <strong>The Fastest Launcher for Claude Code.</strong><br>
-  Claude Code, Gemini CLI, Codex — one hotkey away. Stop juggling terminal windows.
+  <strong>Your Claude Code Control Center.</strong><br>
+  Monitor every agent session. Jump to any terminal in one click.<br>
+  Launch Claude Code, Gemini CLI, and more — all from your menu bar.
 </p>
 
 <p align="center">
@@ -26,9 +27,17 @@
 
 ## Why GroAsk?
 
-You use Claude Code every day, but launching it in the right project directory takes too many steps. GroAsk lives in your menu bar — press **⌥Space**, type your task, and Claude Code starts instantly in the correct workspace. It also supports Gemini CLI, Codex, and 4 web AIs — all from one unified interface. No API keys needed.
+You run multiple Claude Code sessions across different projects. Which one needs approval? Which one is waiting for input? GroAsk's **Agent Dashboard** shows every session's status at a glance — click to jump straight to the terminal.
+
+Plus, press **⌥Space** to launch Claude Code, Gemini CLI, Codex, and 4 web AIs from one unified interface. No API keys needed.
 
 ## Demo
+
+### Agent Dashboard — Monitor all Claude Code sessions
+
+<p align="center">
+  <img src="images/demo-hero.gif" alt="Agent Dashboard Demo" width="700">
+</p>
 
 ### CLI Agents — Claude Code, Gemini CLI, Codex and more
 
@@ -46,6 +55,7 @@ You use Claude Code every day, but launching it in the right project directory t
 
 | Feature | Description |
 |---------|-------------|
+| **Agent Dashboard** | Real-time status for all Claude Code sessions — one-click jump to terminal |
 | **Global Hotkey** | `⌥Space` launches GroAsk from anywhere (customizable) |
 | **10 AI Channels** | 6 CLI agents + 4 Web AIs, switch with `Tab` |
 | **Workspace Shortcuts** | Launch Claude Code across multiple project directories |
@@ -102,10 +112,13 @@ You use Claude Code every day, but launching it in the right project directory t
 
 ## 中文说明
 
-**GroAsk** 是最快的 Claude Code 启动器。按下 `⌥Space`，输入任务，Claude Code 立刻在正确的项目目录启动。同时支持 Gemini CLI、Codex 等 6 个 CLI 智能体和 4 个 Web AI，无需 API Key。
+**GroAsk** 是你的 Claude Code 控制中心。**Agent 调度面板**实时显示所有 Claude Code 会话状态——待确认、待输入、执行中，一键跳转到对应终端。
+
+按下 `⌥Space`，即可启动 Claude Code、Gemini CLI、Codex 等 6 个 CLI 智能体和 4 个 Web AI，无需 API Key。
 
 ### 核心功能
 
+- **Agent 调度面板** — 实时监控所有 Claude Code 会话，一键跳转终端
 - **全局热键** `⌥Space` 随时唤起（可自定义）
 - **10 个 AI 通道** — 6 个 CLI 智能体 + 4 个 Web AI，`Tab` 键快速切换
 - **工作区快捷方式** — 快速切换多个项目目录启动 Claude Code
@@ -127,6 +140,7 @@ ChatGPT、Claude、Gemini、Monica
 
 1. 下载 [GroAsk.dmg](https://groask.com/download?ref=github)
 2. 打开 DMG，拖入 Applications
+
 ### 定价
 
 **完全免费** — 所有功能开放，无试用期，无需升级。

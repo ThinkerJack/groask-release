@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="images/demo-dashboard.jpeg" alt="GroAsk Agent Dashboard" width="700">
+  <img src="images/demo-dashboard.jpeg" alt="GroAsk — The AI Command Center for macOS" width="700">
 </p>
 
 <h1 align="center">GroAsk</h1>
 
 <p align="center">
-  <strong>Your Claude Code Control Center.</strong><br>
-  Monitor every agent session. Jump to any terminal in one click.<br>
-  Launch Claude Code, Gemini CLI, and more — all from your menu bar.
+  <strong>The AI Command Center for macOS.</strong><br>
+  Native Claude Code workbench with real-time agent monitoring.<br>
+  Launch, track, and manage all your AI agents from the menu bar.
 </p>
 
 <p align="center">
@@ -27,16 +27,16 @@
 
 ## Why GroAsk?
 
-You run multiple Claude Code sessions across different projects. Which one needs approval? Which one is waiting for input? GroAsk's **Agent Dashboard** shows every session's status at a glance — click to jump straight to the terminal.
+You run multiple Claude Code sessions across different projects. Which one needs approval? Which one is waiting for input? GroAsk gives you a **native macOS workbench** with real-time agent monitoring — see every session's status at a glance, click to jump straight to the terminal.
 
-Plus, press **⌥Space** to launch Claude Code, Gemini CLI, Codex, and 4 web AIs from one unified interface. No API keys needed.
+Plus, press **⌥Space** to launch Claude Code, Gemini CLI, Codex, and 4 web AIs from one unified interface. Pure AppKit, < 0.3s launch, < 50MB memory. No API keys needed.
 
 ## Demo
 
-### Agent Dashboard — Monitor all Claude Code sessions
+### Real-Time Agent Monitoring — Native Claude Code experience
 
 <p align="center">
-  <img src="images/demo-dashboard.jpeg" alt="Agent Dashboard Demo" width="700">
+  <img src="images/demo-dashboard.jpeg" alt="Agent Monitoring Demo" width="700">
 </p>
 
 ### CLI Agents — Claude Code, Gemini CLI, Codex and more
@@ -55,8 +55,9 @@ Plus, press **⌥Space** to launch Claude Code, Gemini CLI, Codex, and 4 web AIs
 
 | Feature | Description |
 |---------|-------------|
-| **Agent Dashboard** | Real-time status for all Claude Code sessions — one-click jump to terminal |
+| **Real-Time Agent Monitoring** | Native Claude Code task tracking — see every session's status, one-click jump to terminal |
 | **Global Hotkey** | `⌥Space` launches GroAsk from anywhere (customizable) |
+| **Native macOS** | Pure AppKit, 2 MB, < 0.3s launch, < 50MB memory |
 | **10 AI Channels** | 6 CLI agents + 4 Web AIs, switch with `Tab` |
 | **Workspace Shortcuts** | Launch Claude Code across multiple project directories |
 | **Multi-Terminal** | Terminal, iTerm2, Ghostty, Warp |
@@ -64,7 +65,6 @@ Plus, press **⌥Space** to launch Claude Code, Gemini CLI, Codex, and 4 web AIs
 | **Image Support** | `⌘V` to paste screenshots and ask AI |
 | **Silent Mode** | `⌥Enter` sends to AI in the background |
 | **No API Keys** | Uses your existing CLI tools and web sessions — zero config |
-| **Lightweight** | Native Swift, 2 MB, launches in under 1 second |
 
 ## Supported Channels
 
@@ -112,23 +112,23 @@ Plus, press **⌥Space** to launch Claude Code, Gemini CLI, Codex, and 4 web AIs
 
 ## 中文说明
 
-**GroAsk** 是你的 Claude Code 控制中心。**Agent 调度面板**实时显示所有 Claude Code 会话状态——待确认、待输入、执行中，一键跳转到对应终端。
+**GroAsk** 是 macOS 的 AI 调度中心。原生 Claude Code 工作台，实时监控每个 Agent 任务状态——待审批、待输入、执行中，一键跳转终端。
 
-按下 `⌥Space`，即可启动 Claude Code、Gemini CLI、Codex 等 6 个 CLI 智能体和 4 个 Web AI，无需 API Key。
+按下 `⌥Space`，即可启动 Claude Code、Gemini CLI、Codex 等 6 个 CLI Agent 和 4 个 Web AI。纯原生 AppKit，秒启动，无需 API Key。
 
 ### 核心功能
 
-- **Agent 调度面板** — 实时监控所有 Claude Code 会话，一键跳转终端
+- **实时 Agent 监控** — 原生 Claude Code 任务追踪，一键跳转终端
 - **全局热键** `⌥Space` 随时唤起（可自定义）
-- **10 个 AI 通道** — 6 个 CLI 智能体 + 4 个 Web AI，`Tab` 键快速切换
+- **原生 macOS 体验** — 纯 AppKit，2 MB，启动 < 0.3 秒，内存 < 50 MB
+- **10 个 AI 通道** — 6 个 CLI Agent + 4 个 Web AI，`Tab` 键快速切换
 - **工作区快捷方式** — 快速切换多个项目目录启动 Claude Code
 - **多终端支持** — Terminal、iTerm2、Ghostty、Warp
 - **划词即问** — 选中文本，按快捷键，自动发给 AI
 - **图片支持** — `⌘V` 粘贴截图提问
 - **静默模式** — `⌥Enter` 后台发送任务
-- **原生 Swift** — 2 MB，秒启动
 
-### CLI 智能体
+### CLI Agent
 
 Claude Code、Gemini CLI、Codex、CodeBuddy、Kimi Code、Qwen Code
 
